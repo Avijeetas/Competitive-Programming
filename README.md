@@ -1,4 +1,4 @@
 # Competitive-Programming
 
-Here you will get my uploading solutions of solved problem
+Here you will get my uploaded solutions of submission
 http://waprograming.wordpress.com/
