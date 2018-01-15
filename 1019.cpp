@@ -1,0 +1,46 @@
+#include<bits/stdc++.h>
+using namespace std;
+const int N=101;
+typedef long long ll;
+ll g[N][N];
+#define inf 1<<30
+int main()
+{
+
+int t,cs=1;
+//freopen("in.txt","r",stdin);
+//("out.txt","w",stdout);
+cin>>t;
+while(t--)
+{
+
+
+int n,m;
+cin>>n>>m;
+for(int i=0;i<N;i++)
+    for(int j=0;j<N;j++)
+        if(i==j)
+          g[i][j]=0;
+         else g[i][j]=inf;
+ll x,y,w;
+for(int i=0;i<m;i++)
+{
+cin>>x>>y>>w;
+x--,y--;
+g[x][y]=min(w,g[x][y]);
+g[y][x]=min(w,g[y][x]);
+}
+   for(int k=0;k<n;k++)
+    for(int i=0;i<n;i++)
+    for(int j=0;j<n;j++)
+
+            if(g[i][k]+g[k][j]<g[i][j])
+                g[i][j]=g[i][k]+g[k][j];
+
+cout<<"Case "<<cs++<<": ";
+if(g[0][n-1]==inf)
+    cout<<"Impossible";
+    else cout<<g[0][n-1];
+    cout<<endl;
+}
+}
