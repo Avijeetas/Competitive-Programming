@@ -1,0 +1,27 @@
+Today we will try with a new algorithm - Z algorithm
+
+This algo is used in pattern matching,there is another algo for pattern matching
+
+This algorithm works in O(length of text+length of pattern) complexity
+
+and space complexity is similar to time complexity that means O(length of text+length of pattern)
+
+This algorithm is very easy.
+
+</>Video Tutorial
+  Tushar Roy :  https://www.youtube.com/watch?v=CpZh4eF8QBw
+</>Visualization
+
+  www.utdallas.edu
+
+</> Blog
+
+  E-maxx
+  Geeksforgeeks
+  HackerEarth
+  Codeforces
+  
+  #Problemset
+
+    126B  - For Solution : https://wordpress.com/post/waprogramming.wordpress.com/1714
+ 
