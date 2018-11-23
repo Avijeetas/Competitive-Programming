@@ -72,7 +72,7 @@ int main()
 		cout<<a[i].first<<" "<<a[i].second<<endl;
 	}
 
-/*sorting by second element
+//sorting by second element
 
 	sort(a.begin(),a.end(),cmp); // cmp is user defined boolean function
 	cout<<"Sorting"<<endl;
@@ -82,6 +82,6 @@ int main()
 		cout<<a[i].first<<" "<<a[i].second<<endl;
 	}
 
-*/
+
 
 }
